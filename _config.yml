@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: "MuDelta : Delta-Oriented Mutation Analysis at Commit Time"
+description: Mining Important Mutants to Commit-Change during Continuous Integration
+
