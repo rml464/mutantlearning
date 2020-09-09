@@ -8,7 +8,7 @@ The website contains the supplementary materials for the paper, MuDelta: Delta-O
    * [Relevant Mutation Score based on Selected Mutants](#rms)
    * [NLP model Trials and Discussion, following the trending in Software Engineering](#nlp)
    * [Using program slicing?](#slicing)
-   * [Future Veiew](#fview)
+   * [Future View](#fview)
 
 <div id="commitTimeLine"></div>
 ## Commits in Time Line
