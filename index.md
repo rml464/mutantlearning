@@ -23,7 +23,7 @@ Our experiments shows that random algorithm is not a bad method but the low boun
 
 ### Feature Importance
 ![Feature Importance](./graphs/RMS/importance_top.png)
-* The figure shows SHAP feature importance for each invidual column feature. The below table show the three group feature importance described in the paper.
+* The figure shows SHAP feature importance for each invidual column feature of Top-100. The below table show the three group feature importance described in the paper.
 
 | Feature Group      |  Mutant Utility Features | Contextual Features    |  Mutant-Modification   Interaction Features   |
 | :---        |    :----:   |          ---: |          ---: |
