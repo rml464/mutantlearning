@@ -27,7 +27,7 @@ Our experiments shows that random algorithm is not a bad method but the low boun
 
 | Feature Group      |  Mutant Utility Features | Contextual Features    |  Mutant-Modification   Interaction Features   |
 | :---        |    :----:   |          ---: |          ---: |
-| Score      | 0.46       | 0.35   |        0.19       |
+| Score      | 0.61       | 0.14   |        0.25       |
 
 
 ### Precision-Recall Curve and ROC-Curve for each commit of the test dataset
