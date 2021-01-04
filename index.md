@@ -22,8 +22,8 @@ The most difficulty of Mutation Testing is that it is resource-intensive. The mo
 Our experiments shows that random algorithm is not a bad method but the low bound of its performance is not guarantted with large variance. However, MuDelta is stable with smaller variance and can guaranttee the lower bound of RMS.
 
 ### Feature Importance
-![Precision-Recall Curve and ROC-Curve for each commit of the test dataset](./graphs/RMS/importance_top.png)
-* The figure shows the feature importance. The importance score are counted by the number of the feature are used for splitting by the estimators. It shows that Mutant Type and  Mean Path Length between the mutant node and the modification node are the most two import features. The third important feature is Pange Rank score. It can be interpreted well. Mutant type decides what is the mutation change. Mean Path Length takes care of the distance between the mutant and modification. Page Rank tells how the mutant node are linked in the program dependence graph. Decesion tree is more explainable than the black box Deep Learning. The below table show the three group feature importance described in the paper.
+![Feature Importance](./graphs/RMS/importance_top.png)
+* The figure shows SHAP feature importance for each invidual column feature. The below table show the three group feature importance described in the paper.
 
 | Feature Group      |  Mutant Utility Features | Contextual Features    |  Mutant-Modification   Interaction Features   |
 | :---        |    :----:   |          ---: |          ---: |
