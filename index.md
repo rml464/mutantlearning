@@ -23,7 +23,7 @@ Our experiments shows that random algorithm is not a bad method but the low boun
 
 ### Feature Importance
 ![Feature Importance](./graphs/RMS/importance_top.png)
-* The figure shows SHAP feature importance for each invidual feature (one-hot encoding) of Top-100. The complete result can be found here.
+* The figure shows SHAP feature importance for each invidual feature (one-hot encoding) of Top-100. The complete result can be found [here](./graphs/XGBoostSHAP_single_feature_onehot.xlsx).
 
 ### Precision-Recall Curve and ROC-Curve for each commit of the test dataset
 ![Precision-Recall Curve and ROC-Curve for each commit of the test dataset](./graphs/RMS/test_each_program_pr_roc.png)
